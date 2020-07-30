@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/abs"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/resback"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="60dp"
+        android:layout_y="120dp"
+        android:background="@drawable/box"
+        android:fontFamily="@font/dancing_script_bold"
+        android:text=" For:              "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="60dp"
+        android:layout_y="200dp"
+        android:background="@drawable/box"
+        android:fontFamily="@font/dancing_script_bold"
+        android:text=" Age:             "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="60dp"
+        android:layout_y="440dp"
+        android:background="@drawable/box"
+        android:fontFamily="@font/dancing_script_bold"
+        android:text=" Personality:   "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="60dp"
+        android:layout_y="360dp"
+        android:background="@drawable/box"
+        android:fontFamily="@font/dancing_script_bold"
+        android:text=" Occasion:      "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="60dp"
+        android:layout_y="280dp"
+        android:background="@drawable/box"
+        android:fontFamily="@font/dancing_script_bold"
+        android:text=" Price:           "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="216dp"
+        android:layout_height="wrap_content"
+        android:layout_x="187dp"
+        android:layout_y="120dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButton12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="Him"
+            android:textColor="#000000"
+            android:textColorLink="#EC0F0F" />
+
+        <RadioButton
+            android:id="@+id/radioButton13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Her"
+            android:textColorLink="#EC0F0F" />
+
+        <RadioButton
+            android:id="@+id/radioButton14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Couple"
+            android:textColorLink="#EC0F0F" />
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/spinnerage"
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:layout_x="187dp"
+        android:layout_y="194dp" />
+
+    <Spinner
+        android:id="@+id/spinnerage2"
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:layout_x="187dp"
+        android:layout_y="194dp" />
+
+    <Spinner
+        android:id="@+id/spinnerper"
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:layout_x="187dp"
+        android:layout_y="434dp" />
+
+    <Spinner
+        android:id="@+id/spinnerocc"
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:layout_x="187dp"
+        android:layout_y="354dp" />
+
+    <Spinner
+        android:id="@+id/spinnerocc3"
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:layout_x="187dp"
+        android:layout_y="354dp" />
+
+    <Spinner
+        android:id="@+id/spinnerpri"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_x="187dp"
+        android:layout_y="274dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="160dp"
+        android:layout_y="542dp"
+        android:background="@drawable/bbox"
+        android:fontFamily="@font/dancing_script_bold"
+        android:text="Generate"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="159dp"
+        android:layout_y="630dp"
+        android:text="Button" />
+
+
+</AbsoluteLayout>
